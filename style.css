@@ -1,0 +1,392 @@
+
+
+body{
+    font-family: 'Anonymous Pro', monospace;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Montserrat', sans-serif;
+color: azure;
+}
+
+  
+nav{
+padding-left: 30px;
+background-color: darkslategray;
+border-radius:  5px ;
+
+
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 20px ; 
+    font-weight: 750;
+   color: white;
+    
+         
+}
+nav h1,ul{
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    padding: 1rem;
+}
+
+
+nav a:hover {
+    color:  rgb(7, 154, 110); 
+}
+
+
+
+#one{
+    float: right;
+    font-family:system-ui, 'Segoe UI',  'Open Sans',Arial, Helvetica, sans-serif 'Helvetica Neue', sans-serif ;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+
+
+.none{
+    width: 200px;
+    /* height: 300px; */
+    /* background-color: rgb(49, 209, 49); */
+    margin-top: 90px;
+
+    
+
+}
+
+.mainDiv{
+    background-color: rgb(13, 196, 141);
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.mainDiv{
+    position: relative;
+}
+.centerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: none;
+    position: absolute;
+}
+
+/* h1{
+    font-weight: 1200;
+    
+} */
+#yes{
+    font-size: 1.95rem;
+    
+}
+.head{
+    font-weight: 1200;
+    
+}
+.Start{
+    font-weight: 900;
+    font-size: 3.80rem;
+    padding-bottom: 20px;
+}
+
+
+.centerDiv .lane{
+    border-bottom: 3px solid white;
+    color: rgb(13, 196, 141);
+}
+
+/* ##################################  section styling   ########################################## */
+
+.healer h2{
+    color: black;
+    font-weight: 20px;
+    font-size: 2.95rem;
+    text-align: center;
+}
+
+
+.image{
+    padding: 5px;
+
+}
+
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 33.333%; 
+    box-sizing: border-box; 
+}
+
+
+.image img {
+    width: 100%;
+    height: auto;
+    margin: 5px; 
+}
+
+.about{
+    background-color: rgb(13, 196, 141);
+    color: white;
+}
+
+.about  h2{
+    font-weight: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.parah{
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+
+
+.about-style {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.about-style .parah {
+    display: flex;
+    padding: 1rem 1.75rem;
+    justify-content: center;
+}
+
+.about-style .parah p {
+    width: 33.33333333%;
+    text-align: start;
+    margin: 10px;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.parah p:last-child {
+    margin-bottom: 0;
+}
+
+.about-style  .btn {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+    border: 2px solid #f8f9fa;
+    background: none;
+}
+
+
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-custom.divider-light .divider-custom-line {
+    background-color: #0f0e0e;
+    margin-left: 1rem;
+}
+
+.divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem;
+}
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+}
+
+.divider-custom.divider-light .divider-custom-icon {
+    color: #fff;
+}
+
+.divider-custom .divider-custom-icon {
+    color: #2c3e50;
+    font-size: 2rem;
+}
+
+.btn{
+    color: white;
+    font-size: 8px;
+}
+
+.btn{
+    font-size: 24px;
+    border-radius: 5px;
+    padding-left: 4rem;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    margin-top: 10px;
+    text-decoration: none;
+    display: block;
+    background-color:#198504; 
+    color: #fff; 
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.head h2{
+    color: black;
+    font-weight: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container{
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.fr input{
+    font-size: 22px;
+    border: none;
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1.6px solid lightgray;
+    padding-top: 1rem;
+    
+}
+
+
+.fr textarea{
+    font-size: 22px;
+    border: none;
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1.6px solid lightgray;
+    width: 280px;
+}
+
+
+
+.four-sided-link {
+    background-color: lightgray;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .four-sided-link a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .four-sided-link a:hover{
+    background-color: white;
+    color: #333;
+  }
+  footer{
+    border: 2px solid black;
+    background-color: cadetblue;
+    padding-left: 50px;
+    font-weight: 800;
+}
+.foot{
+    /* padding-left:240px ; */
+    /* padding-bottom: 300px; */
+    text-align: center !important;
+    /* padding-bottom: 300px; */
+    
+    
+}
+.lfoot{
+    text-align: end;
+    
+}
+
+
+/* Custom Footer Styles */
+.custom-footer {
+    background-color: #333; /* Replace with your desired background color */
+    color: #fff; /* Replace with your desired text color */
+    padding: 50px 0;
+display: flex;
+}
+
+/* Custom Container Styles */
+.custom-container {
+    max-width: 1140px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+/* Custom Row Styles */
+.custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Custom Column Styles */
+.custom-col {
+    flex: 0 0 calc(33.333% - 20px); /* Adjust column width and spacing as needed */
+}
+
+/* Custom Heading Styles */
+.custom-heading {
+    text-transform: uppercase;
+    font-size: 1.5rem; /* Adjust as needed */
+    margin-bottom: 15px;
+
+}
+
+/* Custom Paragraph Styles */
+.custom-paragraph {
+    margin-bottom: 0;
+}
+
+/* Custom Social Button Styles */
+.custom-social-btn {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid #fff; /* Replace with your desired border color */
+    border-radius: 50%; /* Make it a circle */
+    width: 28px;
+    height: 20px;
+}
+
+/* Custom Social Icon Styles */
+.custom-social-icon {
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    fill: #fff; /* Replace with your desired icon color */
+}
+
+/* Custom Link Styles */
+.custom-link {
+    color: #fff; /* Replace with your desired link color */
+}
+
+
+#lst{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
